@@ -7,24 +7,14 @@
     <meta name="description" content="Seppaleinen">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" >
 
     <title>Seppaleinens gitrepo</title>
 </head>
 
 <body>
 
-<!-- HEADER -->
-<div id="header_wrap" class="outer">
-    <header class="inner">
-        <a id="forkme_banner" href="https://github.com/seppaleinen">View on GitHub</a>
-
-        <div>
-            <img alt="" class="avatar" data-user="2854675" height="230" src="https://avatars1.githubusercontent.com/u/2854675?v=3&amp;s=460" width="230"/>
-            <h1 id="project_title">Seppaleinens repositories</h1>
-        </div>
-
-    </header>
-</div>
+{% include header.html %}
 
 <div id="content">
     {{ content }}
@@ -36,6 +26,9 @@
         <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
     </footer>
 </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
 
 </body>
 </html>
