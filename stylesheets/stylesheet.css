@@ -283,6 +283,24 @@ Full-Width Styles
 #java {
     background-color: blue;
 }
+#bash.active {
+    background-color: red;
+}
+#bash {
+    background-color: blue;
+}
+#ruby.active {
+    background-color: red;
+}
+#ruby {
+    background-color: blue;
+}
+#perl.active {
+    background-color: red;
+}
+#perl {
+    background-color: blue;
+}
 
 #forkme_banner {
   display: block;
