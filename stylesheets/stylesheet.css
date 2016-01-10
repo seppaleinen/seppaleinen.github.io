@@ -272,16 +272,16 @@ Full-Width Styles
 }
 
 #python.active {
-    background-color: blue;
+    background-color: red;
 }
 #python {
-    background-color: red;
-}
-#java.active {
     background-color: blue;
 }
-#java {
+#java.active {
     background-color: red;
+}
+#java {
+    background-color: blue;
 }
 
 #forkme_banner {
