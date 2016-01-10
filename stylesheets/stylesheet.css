@@ -271,6 +271,19 @@ Full-Width Styles
   margin: 0 auto;
 }
 
+#python.active {
+    background-color: blue;
+}
+#python {
+    background-color: red;
+}
+#java.active {
+    background-color: blue;
+}
+#java {
+    background-color: red;
+}
+
 #forkme_banner {
   display: block;
   position: absolute;
