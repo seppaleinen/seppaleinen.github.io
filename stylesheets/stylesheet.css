@@ -271,34 +271,10 @@ Full-Width Styles
   margin: 0 auto;
 }
 
-#python.active {
+button[name=lang].active {
     background-color: red;
 }
-#python {
-    background-color: blue;
-}
-#java.active {
-    background-color: red;
-}
-#java {
-    background-color: blue;
-}
-#bash.active {
-    background-color: red;
-}
-#bash {
-    background-color: blue;
-}
-#ruby.active {
-    background-color: red;
-}
-#ruby {
-    background-color: blue;
-}
-#perl.active {
-    background-color: red;
-}
-#perl {
+button[name=lang] {
     background-color: blue;
 }
 
